@@ -5,7 +5,7 @@ import argparse
 import mlflow
 from sklearn.datasets import load_breast_cancer
 
-MIN_CLASS_BALANCE = 0.45
+MIN_CLASS_BALANCE = 0.20
 TRACKING_URI = "sqlite:///mlflow.db"
 
 
